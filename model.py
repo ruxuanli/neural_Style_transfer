@@ -2,12 +2,7 @@ import torchvision.models as models
 import torch
 import torch.nn as nn
 import copy
-import matplotlib.pyplot as plt
 
-from matplotlib.pyplot import imshow
-from torch import optim
-
-from dataset import content_img
 from loss_function import ContentLoss, StyleLoss
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
