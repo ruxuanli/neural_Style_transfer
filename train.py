@@ -88,6 +88,4 @@ if __name__ == '__main__':
     # imshow(output, title='Output Image')
     Vis.img(name="output",img_=output)
 
-    # sphinx_gallery_thumbnail_number = 4
-    # plt.ioff()
-    # plt.show()
+
